@@ -1,0 +1,456 @@
+* {padding:0;
+  margin: 0;
+  border:0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  }
+
+
+
+/* Navegador superior */
+
+.nav1 {
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 400;
+  width: 100%;
+  height: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+.lista1 { 
+  margin-left: 20px;
+}
+
+.lista2 {display:flex;
+  justify-content: space-between;
+margin-right: 20px;}
+
+.lista2 li {margin: 9px;}
+
+a {color:white;
+  text-decoration: none;
+}
+
+/* Encabezado del sitio */
+
+.nav-header {
+  background-color: #f0a83b;
+  background-size: contain;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 400;
+  width:100%;
+  height: 63px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.lista-nav { display: flex;
+  justify-content: space-around;
+  
+  }
+  
+.lista-nav li { margin: 9px;
+  margin:20px
+  }
+
+.hamburguesa {display:none}
+
+
+/* Encabezado seccion principal */
+
+
+.bienvenida {
+  background-image: url("../img/img1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.caja-textos {display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto1 {background-color: #ffffff;
+color:#3c2313;
+  font-size: 40px;
+  font-weight: 400;
+  padding:14px;
+  margin:12px;
+}
+
+.texto2 {
+    color:#3c2313;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    }
+
+.texto3 {background-color: #f0a83b;
+  color:rgb(255, 255, 255);
+font-size: 21px;
+font-weight: 400;
+padding: 15px 23px;
+border-radius: 5px;
+}
+
+
+/* Seccion principal */
+
+.principal{ display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.Titulo-productos {
+  text-align: center;
+  color: #3c2313;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 15px;
+  line-height: 47px;
+}
+
+.opciones {
+display:flex;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  line-height: 23px;
+}
+
+.productos {display:flex;
+    justify-content: center;
+    margin-top:50px;
+    margin-bottom:100px;
+    }
+
+.prod { text-align: center;
+  margin: 20px;}
+    
+
+.descripcion {
+  color: #3c2313;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.precio {
+  color: #f0a83e;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
+/* Formulario contacto */
+
+.caja-contactanos {display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom:82px;
+}
+
+h2 {
+  color: #3c2313;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form{display:flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;}
+
+#nombre, #email, #tel{background-color: #3c2313;
+  font-size: 9px;
+color:#ffffff;
+font-style: normal;
+text-align: left; 
+padding:15px 230px 15px 15px;
+border-radius: 15px; 
+margin:10px}
+
+
+.botones {display: flex;
+justify-content:center;
+margin-top: 40px;
+}
+
+.boton1{background-color:#8A8787;
+  font-size: 16px;
+color:#ffffff;
+font-style: normal;
+text-align: center; 
+padding:8px 25px;
+border-radius: 15px; 
+margin-right: 10px;
+border:none
+}
+
+.boton2 {background-color:#f0a83e;
+  font-size: 16px;
+color:#ffffff;
+font-style: normal;
+text-align: center; 
+padding:8px 34px;
+border-radius: 15px;
+border:none; 
+}
+
+#nombre:hover, #email:hover, #tel:hover {
+  border: 2px solid #f0a83e;
+}
+
+#nombre:focus, #email:focus, #tel:focus {
+  background-color: #3c231393;
+}
+
+/* Seccion de suscripcion */
+
+.caja-suscripcion {background-color: #f0a83e;
+    background-size: contain;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;}
+
+    .texto-suscr {font-size: 20px;
+      font-weight: 700; 
+      color:rgb(255, 255, 255);
+      padding-left:24px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      
+    }
+
+    .texto-suscr p{padding-left:12px}
+
+    .caja-correo {display:flex;
+    justify-content: space-around;
+    align-items: center;}
+
+    #correo {background-color: #ffffff;
+      font-size: 9px;
+    color:#a0a0a0;
+    font-style: normal;
+    text-align: left; 
+    padding:15px 200px 15px 15px;
+    border-radius: 15px; 
+    margin:10px;
+    border:none
+  }
+
+    .boton3 {background-color:#3c2313;
+      font-size: 9px;
+      color:#ffffff;
+      font-style: normal;
+      text-align: center; 
+      padding:12px 10px;
+      border-radius: 15px; 
+      margin-right: 57px;
+      border:none
+      }
+
+      /* Pie del sitio */
+
+
+.caja-contacto {background-color:#3c2313;
+background-size: contain;
+    font-size: 10px;
+    font-weight: 700; 
+    color:#8A8787;
+    height: 380px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+
+.contacto{display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.caja {display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin:25px
+    }
+
+.texto-caja {display:flex;
+flex-direction: column;
+margin-left:29px;
+} 
+
+h4 {font-size: 20px;
+    font-weight: 700; 
+    color:rgb(255, 255, 255);
+        }
+
+.logo-footer{border:0px}
+    
+
+.derechos{background-color: rgb(0, 0, 0);
+    background-size: contain;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 700;
+    width:100%;
+    height: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mobile media queries */
+
+
+@media (max-width:500px) { 
+
+  /* Encabezado del sitio */
+
+  .nav1 { display:none}
+
+  .lista-nav { display:none}
+
+.nav-header{ display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+.hamburguesa {display: flex;
+justify-content: flex-end;
+padding-right: 30px;
+font-size:1.5rem}
+
+.logo {padding-left: 18px;}
+
+/* Encabezado seccion principal */
+
+.bienvenida {width:100vw;
+  height: 410px;
+  }
+
+.caja-textos {display:flex;
+flex-direction: column;
+align-items: center;}
+
+.texto1 {font-size: 25px;
+  text-align: left;
+  border-radius: 5px;
+  padding: 12px 39px;
+}
+
+.texto2 {align-self: flex-end;
+ margin-right:10px;}
+
+.texto3 {align-self: flex-end;
+margin-right: 40px;}
+
+/* Seccion principal */
+.titulo-productos p {padding-left: 110px;
+  padding-right:90px;}
+
+.productos {display:flex;
+  flex-direction: column;
+align-items: center;}
+
+/* Formulario de contacto */
+
+#nombre, #email, #tel{ width:298px}
+
+.boton1, .boton2 {font-size:16px;
+padding: 13px 0px;
+flex-grow:1}
+
+/* Seccion de suscripcion */
+
+.caja-suscripcion {background-color: #f0a83e;
+  background-size: contain;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;}
+
+.texto-suscr {display: flex;
+  justify-content: flex-start;
+  padding-left: 0px;
+  }
+
+.caja-correo {width:100vw;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:0px;
+  margin:0px}
+
+  #correo { font-size: 10px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-right:10px;
+    flex-grow: 1;
+    margin-left: 20px
+    
+  }
+
+  .boton3 { font-size: 15px;
+    font-weight: bold;
+    padding:9px;
+  margin:10px}
+
+  /* Pie del sitio */
+
+  .caja-contacto {height: 380px;
+        display:flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items:center;
+        padding:0px;
+        margin:0px
+        }
+
+  .contacto {padding-left: 55px;}
+
+  .texto-caja h4{font-size: 24px;
+    font-weight: bold;
+
+  }
+
+  .texto-caja p{font-size: 13px;
+    font-weight: bold;
+
+  }
+
+  .caja {margin:15px}
+
+  .logo-footer {padding-top: 20px;
+  padding-left: 140px;}
+
+  .derechos {font-size: 13px;}
